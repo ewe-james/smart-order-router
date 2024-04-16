@@ -4,14 +4,9 @@ import { FeeAmount } from '@uniswap/v3-sdk';
 import _ from 'lodash';
 
 import {
-  DAI_OPTIMISM_SEPOLIA,
   ITokenListProvider,
   IV2SubgraphProvider,
-  USDC_ARBITRUM_SEPOLIA,
-  USDC_OPTIMISM_SEPOLIA,
-  USDT_OPTIMISM_SEPOLIA,
   V2SubgraphPool,
-  WBTC_OPTIMISM_SEPOLIA
 } from '../../../providers';
 import {
   CELO,
@@ -59,6 +54,11 @@ import {
   WMATIC_POLYGON,
   WMATIC_POLYGON_MUMBAI,
   WXDAI_GNOSIS,
+  DAI_OPTIMISM_SEPOLIA,
+  USDC_ARBITRUM_SEPOLIA,
+  USDC_OPTIMISM_SEPOLIA,
+  USDT_OPTIMISM_SEPOLIA,
+  WBTC_OPTIMISM_SEPOLIA
 } from '../../../providers/token-provider';
 import {
   IV2PoolProvider,
