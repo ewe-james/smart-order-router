@@ -120,5 +120,8 @@
   },
   "oclif": {
     "commands": "./cli/commands"
+  },
+  "publishConfig": {
+    "@ewe-james:registry": "https://npm.pkg.github.com"
   }
 }
